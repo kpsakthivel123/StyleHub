@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StyleHub - Fashion & Apparel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Style<span>Hub</span></div>
+  <nav>
+    <a href="#products">Shop</a>
+    <a href="#wishlist">Wishlist ♡</a>
+    <a href="cart.html">Cart 🛒 <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="tag">NEW COLLECTION 2026</p>
+    <h1>Style that speaks<br>for <span>you.</span></h1>
+    <p>Trendy fashion, simple shopping and styles made for every day.</p>
+    <a class="btn" href="#products">Shop Now</a>
+  </div>
+</section>
+
+<main>
+<section id="products" class="shop">
+  <h2>Fashion Collection</h2>
+  <div class="filters">
+    <input id="search" type="search" placeholder="Search products...">
+    <select id="sizeFilter">
+      <option value="all">All Sizes</option>
+      <option>S</option><option>M</option><option>L</option><option>XL</option>
+    </select>
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option>Men</option><option>Women</option><option>Unisex</option>
+    </select>
+  </div>
+  <div id="productGrid" class="grid"></div>
+</section>
+
+<section id="wishlist" class="wishlist-section">
+  <h2>My Wishlist</h2>
+  <div id="wishlistBox" class="wishlist-box">Your wishlist is empty.</div>
+</section>
+</main>
+
+<footer>© 2026 StyleHub • Fashion & Apparel</footer>
+<script src="script.js"></script>
+</body>
+</html>
